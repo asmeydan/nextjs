@@ -1,18 +1,14 @@
 import Link from "next/link";
 import React from "react";
+import Layout from '../components/Layout'
 
 const about = () => {
   return (
-    <>
-      <div className=" text-7xl bg-violet-300 inline-block p-10 rounded-xl">
+    <Layout >
+      <div className=' text-5xl'>
         about
       </div>
-      <div className=" text-7xl bg-violet-300 inline-block p-10 rounded-xl">
-        <Link href="/">
-            home
-        </Link>
-      </div>
-    </>
+    </Layout>
   );
 };
 
